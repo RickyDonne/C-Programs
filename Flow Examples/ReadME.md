@@ -1,7 +1,7 @@
 # C Control Flow Examples
 
 
-*** This folder contains C Control Flow examples ***
+***This folder contains C Control Flow examples***
 
 ## Examples:
 

@@ -1,2 +1,8 @@
 # C-Programs
-I store my C codes here.
+
+Hello world, 
+I store my C programs here.
+Anyone can view and copy any program they like.
+
+Thanks,
+Ricky

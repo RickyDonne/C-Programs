@@ -5,50 +5,50 @@
 
 ## Examples:
 
-Check whether a number is even or odd
+1.Check whether a number is even or odd
 
-Check whether a character is a vowel or consonant
+2.Check whether a character is a vowel or consonant
 
-Find the largest number among three numbers
+3.Find the largest number among three numbers
 		
-Find all roots of a quadratic equation
+4.Find all roots of a quadratic equation
 		
-Check Whether the Entered Year is Leap Year or not
+5.Check Whether the Entered Year is Leap Year or not
 		
-Check Whether a Number is Positive or Negative or Zero.
+6.Check Whether a Number is Positive or Negative or Zero.
 		
-Checker whether a character is an alphabet or not
+7.Checker whether a character is an alphabet or not
 
-Find the sum of natural numbers
+8.Find the sum of natural numbers
 		
-Find factorial of a number
+9.Find factorial of a number
 
-Generate multiplication table
+10.Generate multiplication table
 
-Display Fibonacci series
+11.Display Fibonacci series
 		
-Find HCF of two numbers
+12.Find HCF of two numbers
 		
-Find LCM of two numbers
+13.Find LCM of two numbers
 		
-Count number of digits of an integer
+14.Count number of digits of an integer
 		
-Reverse a number 
+15.Reverse a number 
 		
-Calculate the power of a number
+16.Calculate the power of a number
 		
-Check whether a number is a palindrome or not
+17.Check whether a number is a palindrome or not
 		
-Check whether an integer is prime or Not
+18.Check whether an integer is prime or Not
 
-Display prime numbers between two intervals
+19.Display prime numbers between two intervals
+	
+20.Check Armstrong number
 		
-Check Armstrong number
+21.Display Armstrong numbers between two intervals
 		
-Display Armstrong numbers between two intervals
-		
-Display factors of a number
+22.Display factors of a number
 
-Print pyramids and triangles
+23.Print pyramids and triangles
 		
-Create a simple calculator
+24.Create a simple calculator

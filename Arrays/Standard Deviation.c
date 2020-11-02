@@ -22,3 +22,13 @@ float calculateSD(float data[]) {
         SD += pow(data[i] - mean, 2);
     return sqrt(SD / 10);
 }
+
+/*
+Calculate:
+1. Mean
+2. Variance = ([i] - mean)^2
+3. sqrt( Var / # of elements)
+
+return value of sqrt.
+
+*/

@@ -12,6 +12,7 @@ void push (link **head, int data); //Pushes a node at the beginning of the list
 void addatpos (link **head_ref, int data, int pos); //adds a node at a particular position
 void delatpos (link **head, int pos); // deletes a node from a position
 void revi(link **head); //reverses a node using iteration
+void recursiveprint (link *p); //prints the list in reverse order without modifying links
 void print_list (link *head); //prints list
 int main()
 {
@@ -26,6 +27,11 @@ int main()
     print_list(head);
     revi(&head); //list is: 16, 8, 6, 2, -20
     print_list(head);
+    
+    printf("Linked list with recursive print: ");
+    recursiveprint(head);
+    printf("NULL\n");
+    
     return 0;
 }
 void append(link **head_ref, int data)
@@ -110,6 +116,13 @@ void delatpos (link **head, int pos)
    }
    prev->next = current->next;
    free(current);
+}
+
+void recursiveprint (link *p)
+{
+    if (p == NULL) return;
+    recursiveprint(p->next);
+    printf("%d->", p->data);
 }
 
 void print_list(link *head)

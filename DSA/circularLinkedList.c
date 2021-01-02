@@ -17,12 +17,12 @@ int main()
 {
     struct Node *last = NULL;
 
-    last = addToEmpty(last, 6);
-    last = addBegin(last, 4);
+    last = addToEmpty(last, 18);
+    last = addBegin(last, 9);
     last = addBegin(last, 2);
-    last = addEnd(last, 8);
-    last = addEnd(last, 12);
-    last = addAfter(last, 10, 8);
+    last = addEnd(last, 36);
+    last = addEnd(last, 64);
+    last = addAfter(last, 42, 36); //last node, data to be placed, key after which we have to place the data
 
     traverse(last);
 

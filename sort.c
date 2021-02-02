@@ -9,7 +9,8 @@ void swap(int *large, int *small);
 void printarray(int arr[], int n);
 void selectionsort(int arr[], int n);
 void insertionsort(int arr[], int n);
-void mergesort(int arr[], int l, int r); void merge(int arr[], int l, int m, int r);
+void mergesort(int arr[], int l, int r); void merge (int arr[], int l, int m, int r);
+void quicksort(int arr[], int low, int high); int partition (int arr[], int low, int high);
 
 int main()
 {
@@ -19,11 +20,40 @@ int main()
 //    bubblesort(arr, n);
 //    selectionsort(arr, n);
 //    insertionsort(arr, n);
-    mergesort(arr, 0, n - 1);
+//    mergesort(arr, 0, n - 1);
+    quicksort(arr, 0, n - 1);
 
     printarray(arr, n);
     return 0;
 }
+/***************Quick-sort****************/
+int partition (int arr[], int low, int high)
+{
+    int pivot = arr[high];
+    int i = (low - 1);
+
+    for (int j = low; j <= high - 1; j++)
+    {
+        if (arr[j] < pivot)
+        {
+            i++;
+            swap(&arr[i], &arr[j]);
+        }
+    }
+    swap(&arr[i + 1], &arr[high]);
+    return (i + 1);
+}
+
+void quicksort(int arr[], int low, int high)
+{
+    if (low < high)
+    {
+        int pi = partition(arr, low, high);
+        quicksort(arr, low, pi - 1);
+        quicksort(arr, pi + 1, high);
+    }
+}
+/*****************************************/
 
 /************Merge-sort**************/
 void mergesort(int arr[], int l, int r)

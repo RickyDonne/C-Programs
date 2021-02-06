@@ -11,6 +11,7 @@ void selectionsort(int arr[], int n);
 void insertionsort(int arr[], int n);
 void mergesort(int arr[], int l, int r); void merge (int arr[], int l, int m, int r);
 void quicksort(int arr[], int low, int high); int partition (int arr[], int low, int high);
+/*****************************************************************************************/
 
 int main()
 {

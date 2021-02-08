@@ -16,7 +16,7 @@ int main() {
 
 	return 0;
 }
-
+/**********merge-sort***********/
 void MergeSort(int *A,int n)
 {
 	int mid,i, *L, *R;
